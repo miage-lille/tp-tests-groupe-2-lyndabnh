@@ -6,6 +6,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:int": "jest --config jest.config.int.ts",
+    "test:e2e": "jest --config jest.config.e2e.ts",
     "test:int:watch": "jest --config jest.config.int.ts --watch",
     "db:generate": "prisma generate"
   },
